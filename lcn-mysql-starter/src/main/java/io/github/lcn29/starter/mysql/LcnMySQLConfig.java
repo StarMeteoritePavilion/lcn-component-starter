@@ -1,7 +1,7 @@
-package io.github.lcn29.mysql.starter;
+package io.github.lcn29.starter.mysql;
 
-import io.github.lcn29.mysql.starter.page.MySqlPageInterceptor;
-import io.github.lcn29.mysql.starter.sharding.ShardingSphereResourceInitEvent;
+import io.github.lcn29.starter.mysql.page.MySQLPageInterceptor;
+import io.github.lcn29.starter.mysql.sharding.ShardingSphereResourceInitEvent;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
@@ -28,8 +28,8 @@ public class LcnMySQLConfig {
      * @return MySQL 分页拦截器
      */
     @Bean
-    public MySqlPageInterceptor mySqlPageInterceptor() {
-        return new MySqlPageInterceptor(lcnMySQLProperty.getPageRegex());
+    public MySQLPageInterceptor mySqlPageInterceptor() {
+        return new MySQLPageInterceptor(lcnMySQLProperty.getPageRegex());
     }
 
     /**

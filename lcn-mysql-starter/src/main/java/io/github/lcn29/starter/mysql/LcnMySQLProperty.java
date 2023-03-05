@@ -1,10 +1,10 @@
-package io.github.lcn29.mysql.starter;
+package io.github.lcn29.starter.mysql;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * <pre>
- *
+ * 属性配置类
  * </pre>
  *
  * @author lcn29

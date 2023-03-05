@@ -1,7 +1,7 @@
-package io.github.lcn29.mysql.starter.page;
+package io.github.lcn29.starter.mysql.page;
 
-import io.github.lcn29.mysql.starter.page.model.Page;
-import io.github.lcn29.mysql.starter.page.model.PageInfo;
+import io.github.lcn29.starter.mysql.page.model.Page;
+import io.github.lcn29.starter.mysql.page.model.PageInfo;
 
 import java.util.List;
 

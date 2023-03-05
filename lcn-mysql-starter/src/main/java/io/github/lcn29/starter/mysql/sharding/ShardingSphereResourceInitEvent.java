@@ -1,4 +1,4 @@
-package io.github.lcn29.mysql.starter.sharding;
+package io.github.lcn29.starter.mysql.sharding;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

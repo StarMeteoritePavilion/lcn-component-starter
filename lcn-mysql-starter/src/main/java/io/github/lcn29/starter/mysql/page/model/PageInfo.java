@@ -1,4 +1,4 @@
-package io.github.lcn29.mysql.starter.page.model;
+package io.github.lcn29.starter.mysql.page.model;
 
 import java.util.List;
 

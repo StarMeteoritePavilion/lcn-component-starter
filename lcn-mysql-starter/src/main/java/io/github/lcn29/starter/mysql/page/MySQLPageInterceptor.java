@@ -1,6 +1,6 @@
-package io.github.lcn29.mysql.starter.page;
+package io.github.lcn29.starter.mysql.page;
 
-import io.github.lcn29.mysql.starter.page.model.Page;
+import io.github.lcn29.starter.mysql.page.model.Page;
 import org.apache.ibatis.executor.ExecutorException;
 import org.apache.ibatis.executor.parameter.ParameterHandler;
 import org.apache.ibatis.executor.statement.RoutingStatementHandler;
@@ -29,7 +29,7 @@ import java.util.Map;
  * @date 2023-03-05 22:00
  */
 @Intercepts(@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class, Integer.class}))
-public class MySqlPageInterceptor implements Interceptor {
+public class MySQLPageInterceptor implements Interceptor {
 
     /**
      * 属性 key, 可以通过对应的 key 从 MetaObject 对象中间接获取到 Statement 对应的属性
@@ -67,7 +67,7 @@ public class MySqlPageInterceptor implements Interceptor {
      */
     private final String pageSqlId;
 
-    public MySqlPageInterceptor(String pageSqlId) {
+    public MySQLPageInterceptor(String pageSqlId) {
         this.pageSqlId = pageSqlId;
     }
 
