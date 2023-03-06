@@ -1,6 +1,7 @@
 package io.github.lcn29.starter.mysql;
 
 import io.github.lcn29.starter.mysql.page.MySQLPageInterceptor;
+import io.github.lcn29.starter.mysql.property.LcnMySQLProperty;
 import io.github.lcn29.starter.mysql.sharding.ShardingSphereResourceInitEvent;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

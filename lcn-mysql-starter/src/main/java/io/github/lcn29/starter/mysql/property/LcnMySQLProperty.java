@@ -1,4 +1,4 @@
-package io.github.lcn29.starter.mysql;
+package io.github.lcn29.starter.mysql.property;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
