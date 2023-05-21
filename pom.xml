@@ -15,20 +15,27 @@
 
     <modules>
         <module>lcn-mysql-starter</module>
+        <module>lcn-redis-starter</module>
     </modules>
 
     <properties>
         <!-- project -->
         <revision>0.0.1-SNAPSHOT</revision>
         <lcn-mysql-starter.version>0.0.1-SNAPSHOT</lcn-mysql-starter.version>
+        <lcn-redis-starter.version>0.0.1-SNAPSHOT</lcn-redis-starter.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.github.lcn29</groupId>
+                <groupId>io.github.lcn29.starter.mysql</groupId>
                 <artifactId>lcn-mysql-starter</artifactId>
                 <version>${lcn-mysql-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.lcn29.starter.redis</groupId>
+                <artifactId>lcn-redis-starter</artifactId>
+                <version>${lcn-redis-starter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>io.github.lcn29.starter.mysql</groupId>
     <artifactId>lcn-mysql-starter</artifactId>
     <version>${lcn-mysql-starter.version}</version>
 
